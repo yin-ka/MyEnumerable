@@ -16,6 +16,7 @@
     - [Setup](#setup)
     - [Usage](#usage)
   - [👥 Authors ](#-authors-)
+  - [:telescope: Future Features ](#telescope-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -117,6 +118,12 @@ To run tests, run the following command:
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Future Feature -->
+## 🔭 Future Features <a name="future-features"></a><br/>
+- [ ] **Adding multip databases**<br/>
+- [ ] **Add more operations**
+- [ ] **Count Nodes and Height**
 
 <!-- CONTRIBUTING -->
 
