@@ -1,7 +1,7 @@
-require_relative './my_enumerable'
+require_relative 'my_enumerable' # Include the MyEnumerable module
 
 class MyList
-  include MyEnumerable
+  include MyEnumerable # Include the MyEnumerable module in MyList
 
   def initialize(*list)
     @list = list
@@ -12,17 +12,18 @@ class MyList
   end
 end
 
-list = MyList.new(1, 2, 3, 4)
+list = MyList.new(1, 2, 3, 4) # Create an instance of MyList with some elements
+
 # Test #all?
-puts list.all? { |e| e < 5 }
+puts(list.all? { |e| e < 5 })
 # => true
-puts list.all? { |e| e > 5 }
+puts(list.all? { |e| e > 5 })
 # => false
 
 # Test #any?
-puts list.any? { |e| e == 2 }
+puts(list.any? { |e| e == 2 })
 # => true
-puts list.any? { |e| e == 5 }
+puts(list.any? { |e| e == 5 })
 # => false
 
 # Test #filter
